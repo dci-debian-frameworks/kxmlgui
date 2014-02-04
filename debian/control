@@ -1,0 +1,50 @@
+Source: kxmlgui
+Section: libs
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
+ extra-cmake-modules, qtbase5-dev, libkf5globalaccel-dev, xauth, xvfb,
+ openbox, libkf5textwidgets-dev, libqt5x11extras-dev, libkf5itemviews-dev,
+ libkf5config-dev, libkf5configwidgets-dev, libkf5auth-dev, libkf5coreaddons-dev,
+ libkf5codecs-dev, libkf5guiaddons-dev, libkf5i18n-dev, libkf5kjs-dev,
+ libkf5widgetsaddons-dev, libkf5iconthemes-dev, libkf5completion-dev,
+ libkf5service-dev, libkf5dbusaddons-dev, libkf5windowsystem-dev,
+ libkf5sonnet-dev 
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/kxmlgui
+
+Package: libkf5xmlgui-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5xmlgui5 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: User configurable main windows.
+ framework for designing the user interface
+ of an application using XML, using the idea 
+ of actions.
+ .
+ Contains development files for kxmlgui.
+ 
+Package: libkf5xmlgui5
+Architecture: any
+Multi-Arch: allowed
+Section: doc
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: User configurable main windows.
+ framework for designing the user interface
+ of an application using XML, using the idea 
+ of actions.
+
+Package: libkf5xmlgui5-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Multi-Arch: allowed
+Depends: libkf5xmlgui5 (= ${binary:Version}), ${misc:Depends}
+Description: User configurable main windows.
+ framework for designing the user interface
+ of an application using XML, using the idea 
+ of actions.
+ .
+ Contains debug symbols for kxmlgui.
