@@ -4,20 +4,24 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules, qtbase5-dev, libkf5globalaccel-dev, xauth, xvfb,
- openbox, libkf5textwidgets-dev, libqt5x11extras-dev, libkf5itemviews-dev,
- libkf5config-dev, libkf5configwidgets-dev, libkf5auth-dev, libkf5coreaddons-dev,
- libkf5codecs-dev, libkf5guiaddons-dev, libkf5i18n-dev, libkf5kjs-dev,
- libkf5widgetsaddons-dev, libkf5iconthemes-dev, libkf5completion-dev,
- libkf5service-dev, libkf5dbusaddons-dev, libkf5windowsystem-dev,
- libkf5sonnet-dev 
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev, libqt5x11extras-dev, 
+ xauth, xvfb, openbox, libkf5attica-dev (>= 4.96.0),
+ libkf5globalaccel-dev (>= 4.96.0), libkf5textwidgets-dev (>= 4.96.0),
+ libkf5itemviews-dev (>= 4.96.0), libkf5config-dev (>= 4.96.0),
+ libkf5configwidgets-dev (>= 4.96.0), libkf5auth-dev (>= 4.96.0),
+ libkf5coreaddons-dev (>= 4.96.0), libkf5codecs-dev (>= 4.96.0),
+ libkf5guiaddons-dev (>= 4.96.0), libkf5i18n-dev (>= 4.96.0),
+ libkf5kjs-dev (>= 4.96.0), libkf5widgetsaddons-dev (>= 4.96.0),
+ libkf5iconthemes-dev (>= 4.96.0), libkf5completion-dev (>= 4.96.0),
+ libkf5service-dev (>= 4.96.0), libkf5dbusaddons-dev (>= 4.96.0),
+ libkf5windowsystem-dev (>= 4.96.0), libkf5sonnet-dev (>= 4.96.0) 
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kxmlgui
 
 Package: libkf5xmlgui-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5xmlgui5 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libkf5xmlgui4 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea 
@@ -25,7 +29,7 @@ Description: User configurable main windows.
  .
  Contains development files for kxmlgui.
  
-Package: libkf5xmlgui5
+Package: libkf5xmlgui4
 Architecture: any
 Multi-Arch: allowed
 Section: doc
@@ -36,12 +40,12 @@ Description: User configurable main windows.
  of an application using XML, using the idea 
  of actions.
 
-Package: libkf5xmlgui5-dbg
+Package: libkf5xmlgui4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: allowed
-Depends: libkf5xmlgui5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5xmlgui4 (= ${binary:Version}), ${misc:Depends}
 Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea 
