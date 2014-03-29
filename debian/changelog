@@ -1,3 +1,9 @@
+kxmlgui (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 11:03:52 +0000
+
 kxmlgui (4.97.0-0ubuntu1) trusty; urgency=medium
 
   * New upstream alpha release
