@@ -37,7 +37,16 @@ Homepage: https://projects.kde.org/projects/frameworks/kxmlgui
 Package: libkf5xmlgui-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5xmlgui5 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libkf5xmlgui5 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends},
+ libkf5config-dev,
+ libkf5configwidgets-dev,
+ libkf5globalaccel-dev,
+ libkf5iconthemes-dev,
+ libkf5itemviews-dev,
+ libkf5textwidgets-dev,
+ libkf5windowsystem-dev,
+ qtbase5-dev,
+ libkf5attica-dev
 Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea
