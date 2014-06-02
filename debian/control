@@ -34,6 +34,17 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kxmlgui
 
+Package: libkf5xmlgui-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5xmlgui5 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: User configurable main windows.
+ framework for designing the user interface
+ of an application using XML, using the idea
+ of actions.
+ .
+ Contains development files for kxmlgui.
+
 Package: libkf5xmlgui5
 Section: doc
 Architecture: any
