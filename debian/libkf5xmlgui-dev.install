@@ -1,3 +1,4 @@
 usr/include/KF5/
 usr/lib/*/cmake/KF5XmlGui/*
 usr/lib/*/libKF5XmlGui.so
+usr/lib/*/qt5/mkspecs/modules/

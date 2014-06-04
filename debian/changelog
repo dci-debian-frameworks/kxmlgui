@@ -5,7 +5,10 @@ kxmlgui (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
+
+  [ Harald Sitter ]
+  * Install qt mkspecs pri to libkf5xmlgui-dev
+  * Update symbols
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:45:57 +0100
 
