@@ -9,6 +9,8 @@ kxmlgui (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * Install qt mkspecs pri to libkf5xmlgui-dev
   * Update symbols
+  * Remove useless Pre-Depends fields used for multiarch compat in
+    releases older than trusty
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:45:57 +0100
 

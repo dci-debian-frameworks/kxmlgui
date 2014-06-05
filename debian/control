@@ -65,7 +65,6 @@ Description: User configurable main windows.
  of an application using XML, using the idea
  of actions.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5xmlgui5-dbg
 Priority: extra
