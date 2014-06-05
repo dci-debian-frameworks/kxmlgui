@@ -57,7 +57,6 @@ Description: User configurable main windows.
  Contains development files for kxmlgui.
 
 Package: libkf5xmlgui5
-Section: doc
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: User configurable main windows.
