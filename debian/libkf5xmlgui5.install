@@ -1,5 +1,2 @@
-etc/xdg/ui/ui_standards.rc
 usr/lib/*/libKF5XmlGui.so.4*
 usr/lib/*/libKF5XmlGui.so.5
-usr/lib/*/libexec/*
-usr/share/*
