@@ -56,9 +56,37 @@ Description: User configurable main windows.
  .
  Contains development files for kxmlgui.
 
-Package: libkf5xmlgui5
+Package: libkf5xmlgui-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5xmlgui5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
+Replaces: libkf5xmlgui5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
+Description: User configurable main windows.
+ framework for designing the user interface
+ of an application using XML, using the idea
+ of actions.
+ .
+ This package contains the runtime files.
+
+Package: libkf5xmlgui-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Breaks: libkf5xmlgui5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
+Replaces: libkf5xmlgui5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
+Description: User configurable main windows.
+ framework for designing the user interface
+ of an application using XML, using the idea
+ of actions.
+ .
+ This package contains the data files.
+
+Package: libkf5xmlgui5
+Architecture: any
+Depends: libkf5xmlgui-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: libkf5xmlgui-bin (= ${binary:Version})
 Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea
@@ -70,6 +98,7 @@ Priority: extra
 Section: debug
 Architecture: any
 Depends: libkf5xmlgui5 (= ${binary:Version}), ${misc:Depends}
+Recommends: libkf5xmlgui-bin (= ${binary:Version})
 Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea

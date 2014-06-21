@@ -13,6 +13,10 @@ kxmlgui (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
     releases older than trusty
   * Remove incorrect Section fields
 
+  [ José Manuel Santamaría Lema ]
+  * Create libkf5xmlgui-bin to provide runtime files and libkf5xmlgui-
+    data to provide architecture independent files.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:45:57 +0100
 
 kxmlgui (4.99.0-0ubuntu1) trusty; urgency=medium
