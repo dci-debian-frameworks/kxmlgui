@@ -58,8 +58,6 @@ Description: User configurable main windows.
 Package: libkf5xmlgui-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5xmlgui5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
-Replaces: libkf5xmlgui5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
 Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea
@@ -71,8 +69,6 @@ Package: libkf5xmlgui-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: libkf5xmlgui5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
-Replaces: libkf5xmlgui5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
 Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea
