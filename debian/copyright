@@ -63,21 +63,21 @@ Files: src/khelpclient.h
        src/khelpclient.cpp
 Copyright: 2012 David Faure <faure@kde.org>
 License: GPL-2+ at the discretion of KDE e.V.
- *  This library is free software; you can redistribute it and/or modify
- *  it under the terms of the GNU Lesser General Public License as published by
- *  the Free Software Foundation; either version 2 of the License or ( at
- *  your option ) version 3 or, at the discretion of KDE e.V. ( which shall
- *  act as a proxy as in section 14 of the GPLv3 ), any later version.
- *
- *  This library is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- *  Library General Public License for more details.
- *
- *  You should have received a copy of the GNU Lesser General Public License
- *  along with this library; see the file COPYING.LIB.  If not, write to
- *  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- *  Boston, MA 02110-1301, USA.
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 2 of the License or ( at
+ your option ) version 3 or, at the discretion of KDE e.V. ( which shall
+ act as a proxy as in section 14 of the GPLv3 ), any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
 
 Files: src/kaboutapplicationdialog.cpp
        src/kaboutapplicationdialog.h
@@ -158,48 +158,39 @@ License: LGPL-2
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
 
-Files: autotests/* excluding:
-       -? autotests/CMakeLists.txt
-       -? autotests/kactioncategorytest.cpp
-       -? autotests/kactioncategorytest.h
-       -? autotests/kactioncollectiontest.cpp
-       -? autotests/kactioncollectiontest.h
-       src/* excluding:
-       -? src/CMakeLists.txt
-       -? src/config-xmlgui.h.cmake
-       -? src/kaboutapplicationconfigattica_p.h.cmake
-       -+ src/kaboutapplicationdialog.cpp
-       -+ src/kaboutapplicationdialog.h
-       -+ src/kaboutapplicationpersonlistdelegate_p.cpp
-       -+ src/kaboutapplicationpersonlistdelegate_p.h
-       -+ src/kaboutapplicationpersonlistview_p.cpp
-       -+ src/kaboutapplicationpersonlistview_p.h
-       -+ src/kaboutapplicationpersonmodel_p.cpp
-       -+ src/kaboutapplicationpersonmodel_p.h
-       -+ src/kaboutkdedialog_p.cpp
-       -+ src/kaboutkdedialog_p.h
-       -+ src/kactioncollection.cpp
-       -+ src/kactioncollection.h
-       -+ src/kactionconflictdetector.cpp
-       -? src/kdepackages.h
-       -+ src/kedittoolbar.cpp
-       -+ src/kedittoolbar.h
-       -+ src/kedittoolbar_p.h
-       -+ src/kmainwindow.cpp
-       -+ src/kmainwindow.h
-       -+ src/kmainwindow_p.h
-       -+ src/kmainwindowiface.cpp
-       -+ src/ktoggletoolbaraction.cpp
-       -+ src/ktoggletoolbaraction.h
-       -+ src/ktoolbar.cpp
-       -+ src/ktoolbar.h
-       -+ src/ktoolbarhandler.cpp
-       -+ src/ktoolbarhandler_p.h
-       -+ src/kxmlguiclient.cpp
-       -+ src/kxmlguiclient.h
-       -+ src/kxmlguifactory.h
-       -+ src/kxmlguiwindow.cpp
-       -+ src/kxmlguiwindow.h
+Files: autotests/* 
+       src/* excluding:      
+        -src/kaboutapplicationdialog.cpp
+        -src/kaboutapplicationdialog.h
+        -src/kaboutapplicationpersonlistdelegate_p.cpp
+        -src/kaboutapplicationpersonlistdelegate_p.h
+        -src/kaboutapplicationpersonlistview_p.cpp
+        -src/kaboutapplicationpersonlistview_p.h
+        -src/kaboutapplicationpersonmodel_p.cpp
+        -src/kaboutapplicationpersonmodel_p.h
+        -src/kaboutkdedialog_p.cpp
+        -src/kaboutkdedialog_p.h
+        -src/kactioncollection.cpp
+        -src/kactioncollection.h
+        -src/kactionconflictdetector.cpp      
+        -src/kedittoolbar.cpp
+        -src/kedittoolbar.h
+        -src/kedittoolbar_p.h
+        -src/kmainwindow.cpp
+        -src/kmainwindow.h
+        -src/kmainwindow_p.h
+        -src/kmainwindowiface.cpp
+        -src/ktoggletoolbaraction.cpp
+        -src/ktoggletoolbaraction.h
+        -src/ktoolbar.cpp
+        -src/ktoolbar.h
+        -src/ktoolbarhandler.cpp
+        -src/ktoolbarhandler_p.h
+        -src/kxmlguiclient.cpp
+        -src/kxmlguiclient.h
+        -src/kxmlguifactory.h
+        -src/kxmlguiwindow.cpp
+        -src/kxmlguiwindow.h
        tests/kbugreporttest.cpp
        tests/kmainwindowtest.cpp
        tests/kmainwindowtest.h
@@ -257,6 +248,72 @@ License: LGPL-2+
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
 
+Files: src/kaboutapplicationdialog.cpp
+       src/kaboutapplicationdialog.h
+       src/kaboutkdedialog_p.cpp
+       src/kaboutkdedialog_p.h
+       src/kactioncollection.cpp
+       src/kactioncollection.h
+       src/kactionconflictdetector.cpp
+       src/kedittoolbar.cpp
+       src/kedittoolbar.h
+       src/kedittoolbar_p.h
+       src/kmainwindow.cpp
+       src/kmainwindow.h
+       src/kmainwindow_p.h
+       src/kmainwindowiface.cpp
+       src/ktoggletoolbaraction.cpp
+       src/ktoggletoolbaraction.h
+       src/ktoolbar.cpp
+       src/ktoolbar.h
+       src/ktoolbarhandler.cpp
+       src/ktoolbarhandler_p.h
+       src/kxmlguiclient.cpp
+       src/kxmlguiclient.h
+       src/kxmlguifactory.h
+       src/kxmlguiwindow.cpp
+       src/kxmlguiwindow.h
+Copyright: (C) 2007 Urs Wolfer <uwolfer at kde.org>
+           (C) 2008 Friedrich W. H. Kossebau <kossebau@kde.org>
+           (C) 2010 Teo Mrnjavac <teo@kde.org>
+           (C) 2007 Urs Wolfer <uwolfer at kde.org>  
+           (C) 1999, 2000  Reginald Stadlbauer <reggie@kde.org>
+           (C) 1999 Simon Hausmann <hausmann@kde.org>
+           (C) 2000 Nicolas Hadacek <haadcek@kde.org>
+           (C) 1999, 2000 Kurt Granroth <granroth@kde.org>
+           (C) 2000 Michael Koch <koch@kde.org>
+           (C) 2001 Holger Freyther <freyther@kde.org>
+           (C) 2002 Ellis Whitehead <ellis@kde.org>
+           (C) 2002 Joseph Wenninger <jowenn@kde.org>
+           (C) 2005-2007 Hamish Rodda <rodda@kde.org>  
+           (C) 2000 Kurt Granroth <granroth@kde.org>          
+           (C) 2000-2008 David Faure <faure@kde.org>  
+           (C) 1997, 1998 Stephan Kulow (coolo@kde.org)
+           (C) 1997-2000 Sven Radej (radej@kde.org)
+           (C) 1997-2000 Matthias Ettrich (ettrich@kde.org)
+           (C) 1999 Chris Schlaeger (cs@kde.org)      
+           (C) 2003 Andras Mantia <amantia@kde.org> 
+           (C) 1997, 1998 Mark Donohoe (donohoe@kde.org)
+License: LGPL-2   
+ Parts of this class have been take from the KAboutApplication class, which was
+ Copyright (C) 2000 Waldo Bastian (bastian@kde.org) and Espen Sand (espen@kde.org)
+ Parts of this class have been take from the KAboutKDE class, which was
+ Copyright (C) 2000 Espen Sand <espen@kde.org>
+ .
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+
 Files: autotests/ktoolbar_unittest.cpp
        autotests/testxmlguiwindow.h
        autotests/testguiclient.h
@@ -286,8 +343,7 @@ Files: src/kaboutapplicationpersonlistdelegate_p.cpp
        src/kaboutapplicationpersonlistview_p.h
        src/kaboutapplicationpersonmodel_p.cpp
        src/kaboutapplicationpersonmodel_p.h
-       tests/krichtexteditor/* excluding:
-       -? tests/krichtexteditor/CMakeLists.txt
+       tests/krichtexteditor/* 
 Copyright: 2010 Teo Mrnjavac <teo@kde.org>
            2008  Stephen Kelly <steveire@gmail.com>
 License: LGPL-2.1+
