@@ -26,11 +26,8 @@ Build-Depends: cmake,
                libkf5widgetsaddons-dev (>= 5.0.0),
                libkf5windowsystem-dev (>= 5.0.0),
                libqt5x11extras5-dev,
-               openbox,
                pkg-kde-tools,
-               qtbase5-dev,
-               xauth,
-               xvfb
+               qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kxmlgui
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kxmlgui
@@ -85,6 +82,7 @@ Description: User configurable main windows.
 
 Package: libkf5xmlgui5
 Architecture: any
+Multi-Arch: same
 Depends: libkf5xmlgui-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -93,7 +91,6 @@ Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea
  of actions.
-Multi-Arch: same
 
 Package: libkf5xmlgui5-dbg
 Priority: extra
