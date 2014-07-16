@@ -1,6 +1,10 @@
 kxmlgui (5.0.0-0ubuntu2) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Update copyright to match licensing to source, + Plus fix missing license. 
+
+  [ Rohan Garg ]
+  * Add XS-Testsuite to debian/control
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 16 Jul 2014 08:32:13 -0700
 
