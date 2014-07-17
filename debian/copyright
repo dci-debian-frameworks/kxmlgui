@@ -3,45 +3,36 @@ Upstream-Name: kxmlgui
 Source: https://projects.kde.org/projects/frameworks/kxmlgui
 
 Files: *
-       debian/*
-Copyright: © 2005-2007 Hamish Rodda <rodda@kde.org>
-           © 1999-2002 Simon Hausmann <hausmann@kde.org>
-           © 1999-2009, 2012 David Faure <faure@kde.org>
-           © 2006-2007 Andreas Hartmetz <ahartmetz@gmail.com>
-           © 1999-2000 Kurt Granroth <granroth@kde.org>
-           © 2001-2002 Ellis Whitehead <ellis@kde.org>
-           © 1997-2000 Matthias Ettrich <ettrich@kde.org>
-           © 1999-2000 Reginald Stadlbauer <reggie@kde.org>
-           © 1997, 2000 Nicolas Hadacek <haadcek@kde.org> <hadacek@kde.org>
-           © 1997-1998, 2000 Stephan Kulow <coolo@kde.org>
-           © 2002, 2005 Joseph Wenninger <jowenn@kde.org>
-           © 2008 Michael Jansen <kde@michael-jansen.biz>
-           © 1997-1998 Mark Donohoe <donohoe@kde.org>
-           © 1997-2000 Sven Radej <radej@kde.org>
-           © 2010 Teo Mrnjavac <teo@kde.org>
-           © 2007 Roberto Raggi <roberto@kdevelop.org>
-           © 1999-2000 Espen Sand <espen@kde.org>
-           © 1999 Chris Schlaeger <cs@kde.org>
-           © 2008 Alexander Dymo <adymo@kdevelop.org>
-           © 2000 Michael Koch <koch@kde.org>
-           © 2001 Holger Freyther <freyther@kde.org>
-           © 2000 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
-           © 2007 Urs Wolfer <uwolfer@kde.org>
-           © 2008 Stephen Kelly <steveire@gmail.com>
-           © 2001 Ian Reinhart Geiser <geiseri@yahoo.com>
-           © 2008 Nick Shaforostoff <shaforostoff@kde.ru>
-           © 1997 Matthias Kalle Dalheimer <kalle@kde.org>
-           © 2000 Waldo Bastian <bastian@kde.org>
-           © 1998-2000 KDE Team
-           © 2006 Olivier Goffart <ogoffart@kde.org>
-           © 2007 Krzysztof Lichota <lichota@mimuw.edu.pl>
-           © 2006 Thiago Macieira <thiago@kde.org>
-           © 2003 Andras Mantia <amantia@kde.org>
-           © 2006 Peter Simonsson <peter.simonsson@gmail.com>
-           © 2008 Rafael Fernández López <ereslibre@kde.org>
-           © 2009 Chani Armitage <chani@kde.org>
-           © 2008 Friedrich W. H. Kossebau <kossebau@kde.org>
-             2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+ debian/
+Copyright: 1997 Nicolas Hadacek <hadacek@kde.org>
+ 2007-2009 David Faure <faure@kde.org>
+ 2000 Stephan Kulow <coolo@kde.org>
+ 2000 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
+ 2014 Alex Richardson <arichardson.kde@gmail.com>
+ 1997 Matthias Kalle Dalheimer (kalle@kde.org)
+ 2009 Chani Armitage <chani@kde.org>
+ 2008 Alexander Dymo <adymo@kdevelop.org>
+ 2008 Michael Jansen <kde@michael-jansen.biz>
+ 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+
+Files: src/ksendbugmail/*
+Copyright: 2000 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
+ 2000 Stephan Kulow <coolo@kde.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -59,293 +50,17 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-Files: src/khelpclient.h
-       src/khelpclient.cpp
-Copyright: 2012 David Faure <faure@kde.org>
-License: GPL-2+ at the discretion of KDE e.V.
- This library is free software; you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License as published by
- the Free Software Foundation; either version 2 of the License or ( at
- your option ) version 3 or, at the discretion of KDE e.V. ( which shall
- act as a proxy as in section 14 of the GPLv3 ), any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
-
-Files: src/kaboutapplicationdialog.cpp
-       src/kaboutapplicationdialog.h
-       src/kaboutkdedialog_p.cpp
-       src/kaboutkdedialog_p.h
-       src/kactioncollection.cpp
-       src/kactioncollection.h
-       src/kactionconflictdetector.cpp
-       src/kedittoolbar.cpp
-       src/kedittoolbar.h
-       src/kedittoolbar_p.h
-       src/kmainwindow.cpp
-       src/kmainwindow.h
-       src/kmainwindow_p.h
-       src/ktoggletoolbaraction.cpp
-       src/ktoggletoolbaraction.h
-       src/ktoolbar.cpp
-       src/ktoolbar.h
-       src/ktoolbarhandler.cpp
-       src/ktoolbarhandler_p.h
-       src/kxmlguiclient.cpp
-       src/kxmlguiclient.h
-       src/kxmlguifactory.h
-       src/kxmlguiwindow.cpp
-       src/kxmlguiwindow.h
-       tests/kxmlguiwindowtest.cpp
-Copyright: 2007 Urs Wolfer <uwolfer at kde.org>
-           2000 Espen Sand <espen@kde.org> via KAboutKDE
-           © 2005-2007 Hamish Rodda <rodda@kde.org>
-           © 1999-2002 Simon Hausmann <hausmann@kde.org>
-           © 1999-2009, 2012 David Faure <faure@kde.org>
-           © 2006-2007 Andreas Hartmetz <ahartmetz@gmail.com>
-           © 1999-2000 Kurt Granroth <granroth@kde.org>
-           © 2001-2002 Ellis Whitehead <ellis@kde.org>
-           © 1997-2000 Matthias Ettrich <ettrich@kde.org>
-           © 1999-2000 Reginald Stadlbauer <reggie@kde.org>
-           © 1997, 2000 Nicolas Hadacek <haadcek@kde.org> <hadacek@kde.org>
-           © 1997-1998, 2000 Stephan Kulow <coolo@kde.org>
-           © 2002, 2005 Joseph Wenninger <jowenn@kde.org>
-           © 2008 Michael Jansen <kde@michael-jansen.biz>
-           © 1997-1998 Mark Donohoe <donohoe@kde.org>
-           © 1997-2000 Sven Radej <radej@kde.org>
-           © 2010 Teo Mrnjavac <teo@kde.org>
-           © 2007 Roberto Raggi <roberto@kdevelop.org>
-           © 1999-2000 Espen Sand <espen@kde.org>
-           © 1999 Chris Schlaeger <cs@kde.org>
-           © 2008 Alexander Dymo <adymo@kdevelop.org>
-           © 2000 Michael Koch <koch@kde.org>
-           © 2001 Holger Freyther <freyther@kde.org>
-           © 2000 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
-           © 2007 Urs Wolfer <uwolfer@kde.org>
-           © 2008 Stephen Kelly <steveire@gmail.com>
-           © 2001 Ian Reinhart Geiser <geiseri@yahoo.com>
-           © 2008 Nick Shaforostoff <shaforostoff@kde.ru>
-           © 1997 Matthias Kalle Dalheimer <kalle@kde.org>
-           © 2000 Waldo Bastian <bastian@kde.org>
-           © 1998-2000 KDE Team
-           © 2006 Olivier Goffart <ogoffart@kde.org>
-           © 2007 Krzysztof Lichota <lichota@mimuw.edu.pl>
-           © 2006 Thiago Macieira <thiago@kde.org>
-           © 2003 Andras Mantia <amantia@kde.org>
-           © 2006 Peter Simonsson <peter.simonsson@gmail.com>
-           © 2008 Rafael Fernández López <ereslibre@kde.org>
-           © 2009 Chani Armitage <chani@kde.org>
-           © 2008 Friedrich W. H. Kossebau <kossebau@kde.org>
-License: LGPL-2
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License version 2 as published by the Free Software Foundation.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
-
-Files: autotests/* 
-       src/* excluding:      
-        -src/kaboutapplicationdialog.cpp
-        -src/kaboutapplicationdialog.h
-        -src/kaboutapplicationpersonlistdelegate_p.cpp
-        -src/kaboutapplicationpersonlistdelegate_p.h
-        -src/kaboutapplicationpersonlistview_p.cpp
-        -src/kaboutapplicationpersonlistview_p.h
-        -src/kaboutapplicationpersonmodel_p.cpp
-        -src/kaboutapplicationpersonmodel_p.h
-        -src/kaboutkdedialog_p.cpp
-        -src/kaboutkdedialog_p.h
-        -src/kactioncollection.cpp
-        -src/kactioncollection.h
-        -src/kactionconflictdetector.cpp      
-        -src/kedittoolbar.cpp
-        -src/kedittoolbar.h
-        -src/kedittoolbar_p.h
-        -src/kmainwindow.cpp
-        -src/kmainwindow.h
-        -src/kmainwindow_p.h
-        -src/kmainwindowiface.cpp
-        -src/ktoggletoolbaraction.cpp
-        -src/ktoggletoolbaraction.h
-        -src/ktoolbar.cpp
-        -src/ktoolbar.h
-        -src/ktoolbarhandler.cpp
-        -src/ktoolbarhandler_p.h
-        -src/kxmlguiclient.cpp
-        -src/kxmlguiclient.h
-        -src/kxmlguifactory.h
-        -src/kxmlguiwindow.cpp
-        -src/kxmlguiwindow.h
-       tests/kbugreporttest.cpp
-       tests/kmainwindowtest.cpp
-       tests/kmainwindowtest.h
-       tests/kxmlguitest.cpp
-Copyright: © 2005-2007 Hamish Rodda <rodda@kde.org>
-           © 1999-2002 Simon Hausmann <hausmann@kde.org>
-           © 1999-2009, 2012 David Faure <faure@kde.org>
-           © 2006-2007 Andreas Hartmetz <ahartmetz@gmail.com>
-           © 1999-2000 Kurt Granroth <granroth@kde.org>
-           © 2001-2002 Ellis Whitehead <ellis@kde.org>
-           © 1997-2000 Matthias Ettrich <ettrich@kde.org>
-           © 1999-2000 Reginald Stadlbauer <reggie@kde.org>
-           © 1997, 2000 Nicolas Hadacek <haadcek@kde.org> <hadacek@kde.org>
-           © 1997-1998, 2000 Stephan Kulow <coolo@kde.org>
-           © 2002, 2005 Joseph Wenninger <jowenn@kde.org>
-           © 2008 Michael Jansen <kde@michael-jansen.biz>
-           © 1997-1998 Mark Donohoe <donohoe@kde.org>
-           © 1997-2000 Sven Radej <radej@kde.org>
-           © 2010 Teo Mrnjavac <teo@kde.org>
-           © 2007 Roberto Raggi <roberto@kdevelop.org>
-           © 1999-2000 Espen Sand <espen@kde.org>
-           © 1999 Chris Schlaeger <cs@kde.org>
-           © 2008 Alexander Dymo <adymo@kdevelop.org>
-           © 2000 Michael Koch <koch@kde.org>
-           © 2001 Holger Freyther <freyther@kde.org>
-           © 2000 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
-           © 2007 Urs Wolfer <uwolfer@kde.org>
-           © 2008 Stephen Kelly <steveire@gmail.com>
-           © 2001 Ian Reinhart Geiser <geiseri@yahoo.com>
-           © 2008 Nick Shaforostoff <shaforostoff@kde.ru>
-           © 1997 Matthias Kalle Dalheimer <kalle@kde.org>
-           © 2000 Waldo Bastian <bastian@kde.org>
-           © 1998-2000 KDE Team
-           © 2006 Olivier Goffart <ogoffart@kde.org>
-           © 2007 Krzysztof Lichota <lichota@mimuw.edu.pl>
-           © 2006 Thiago Macieira <thiago@kde.org>
-           © 2003 Andras Mantia <amantia@kde.org>
-           © 2006 Peter Simonsson <peter.simonsson@gmail.com>
-           © 2008 Rafael Fernández López <ereslibre@kde.org>
-           © 2009 Chani Armitage <chani@kde.org>
-           © 2008 Friedrich W. H. Kossebau <kossebau@kde.org>
-License: LGPL-2+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
-
-Files: src/kaboutapplicationdialog.cpp
-       src/kaboutapplicationdialog.h
-       src/kaboutkdedialog_p.cpp
-       src/kaboutkdedialog_p.h
-       src/kactioncollection.cpp
-       src/kactioncollection.h
-       src/kactionconflictdetector.cpp
-       src/kedittoolbar.cpp
-       src/kedittoolbar.h
-       src/kedittoolbar_p.h
-       src/kmainwindow.cpp
-       src/kmainwindow.h
-       src/kmainwindow_p.h
-       src/kmainwindowiface.cpp
-       src/ktoggletoolbaraction.cpp
-       src/ktoggletoolbaraction.h
-       src/ktoolbar.cpp
-       src/ktoolbar.h
-       src/ktoolbarhandler.cpp
-       src/ktoolbarhandler_p.h
-       src/kxmlguiclient.cpp
-       src/kxmlguiclient.h
-       src/kxmlguifactory.h
-       src/kxmlguiwindow.cpp
-       src/kxmlguiwindow.h
-Copyright: (C) 2007 Urs Wolfer <uwolfer at kde.org>
-           (C) 2008 Friedrich W. H. Kossebau <kossebau@kde.org>
-           (C) 2010 Teo Mrnjavac <teo@kde.org>
-           (C) 2007 Urs Wolfer <uwolfer at kde.org>  
-           (C) 1999, 2000  Reginald Stadlbauer <reggie@kde.org>
-           (C) 1999 Simon Hausmann <hausmann@kde.org>
-           (C) 2000 Nicolas Hadacek <haadcek@kde.org>
-           (C) 1999, 2000 Kurt Granroth <granroth@kde.org>
-           (C) 2000 Michael Koch <koch@kde.org>
-           (C) 2001 Holger Freyther <freyther@kde.org>
-           (C) 2002 Ellis Whitehead <ellis@kde.org>
-           (C) 2002 Joseph Wenninger <jowenn@kde.org>
-           (C) 2005-2007 Hamish Rodda <rodda@kde.org>  
-           (C) 2000 Kurt Granroth <granroth@kde.org>          
-           (C) 2000-2008 David Faure <faure@kde.org>  
-           (C) 1997, 1998 Stephan Kulow (coolo@kde.org)
-           (C) 1997-2000 Sven Radej (radej@kde.org)
-           (C) 1997-2000 Matthias Ettrich (ettrich@kde.org)
-           (C) 1999 Chris Schlaeger (cs@kde.org)      
-           (C) 2003 Andras Mantia <amantia@kde.org> 
-           (C) 1997, 1998 Mark Donohoe (donohoe@kde.org)
-License: LGPL-2   
- Parts of this class have been take from the KAboutApplication class, which was
- Copyright (C) 2000 Waldo Bastian (bastian@kde.org) and Espen Sand (espen@kde.org)
- Parts of this class have been take from the KAboutKDE class, which was
- Copyright (C) 2000 Espen Sand <espen@kde.org>
- .
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License version 2 as published by the Free Software Foundation.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Library General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
-
-Files: autotests/ktoolbar_unittest.cpp
-       autotests/testxmlguiwindow.h
-       autotests/testguiclient.h
-       src/khelpclient.h
-       src/khelpclient.cpp
-Copyright: 2009, 2012 David Faure <faure@kde.org>
-License: LGPL-2.1+ at the discretion of KDE e.V.
- This library is free software; you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License as published by
- the Free Software Foundation; either version 2 of the License or ( at
- your option ) version 3 or, at the discretion of KDE e.V. ( which shall
- act as a proxy as in section 14 of the GPLv3 ), any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Library General Public License for more details.
- .
- You should have received a copy of the GNU Lesser General Public License
- along with this library; see the file COPYING.LIB.  If not, write to
- the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- Boston, MA 02110-1301, USA.
-
-Files: src/kaboutapplicationpersonlistdelegate_p.cpp
-       src/kaboutapplicationpersonlistdelegate_p.h
-       src/kaboutapplicationpersonlistview_p.cpp
-       src/kaboutapplicationpersonlistview_p.h
-       src/kaboutapplicationpersonmodel_p.cpp
-       src/kaboutapplicationpersonmodel_p.h
-       tests/krichtexteditor/* 
-Copyright: 2010 Teo Mrnjavac <teo@kde.org>
-           2008  Stephen Kelly <steveire@gmail.com>
+Files: src/kaboutapplicationpersonlistdelegate_p.h
+ src/kaboutapplicationpersonlistview_p.cpp
+ src/kaboutapplicationpersonlistdelegate_p.cpp
+ src/kaboutapplicationpersonlistview_p.h
+ src/kaboutapplicationpersonmodel_p.h
+ src/kaboutapplicationpersonmodel_p.cpp
+ tests/krichtexteditor/main.cpp
+ tests/krichtexteditor/krichtexteditor.cpp
+ tests/krichtexteditor/krichtexteditor.h
+Copyright: 2010 Teo Mrnjavac <teo@kde.org>,
+ 2008 Stephen Kelly <steveire@gmail.com>
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -359,3 +74,7 @@ License: LGPL-2.1+
  .
  You should have received a copy of the GNU Lesser General Public
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in "/usr/share/common-licenses/GPL-2.1".
+
