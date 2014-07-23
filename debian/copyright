@@ -29,6 +29,9 @@ License: LGPL-2+
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 Files: src/ksendbugmail/*
 Copyright: 2000 Bernd Johannes Wuebben <wuebben@math.cornell.edu>
@@ -76,5 +79,56 @@ License: LGPL-2.1+
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
  .
  On Debian systems, the complete text of the GNU Lesser General
- Public License version 2.1 can be found in "/usr/share/common-licenses/GPL-2.1".
+ Public License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
+
+Files: src/kmainwindow_p.h
+ src/ktoolbarhandler.cpp
+ src/kxmlguiwindow.h
+ src/kaboutkdedialog_p.cpp
+ src/kactionconflictdetector.cpp
+ src/kaboutapplicationdialog.cpp
+ src/kedittoolbar.cpp
+ src/kmainwindow.cpp
+ src/kxmlguifactory.h
+ src/kmainwindow.h
+ src/ktoolbar.cpp
+ src/kxmlguiwindow.cpp
+ src/kaboutkdedialog_p.h
+ src/ktoggletoolbaraction.cpp
+ src/kxmlguiclient.cpp
+ src/kaboutapplicationdialog.h
+ src/kedittoolbar_p.h
+ src/kactioncollection.h
+ src/kedittoolbar.h
+ src/kactioncollection.cpp
+ src/ktoolbarhandler_p.h
+ src/ktoggletoolbaraction.h
+ src/ktoolbar.h
+ src/kxmlguiclient.h
+ tests/kxmlguiwindowtest.cpp
+Copyright: 2002 Simon Hausmann <hausmann@kde.org>
+ 2007 Urs Wolfer <uwolfer at kde.org>
+ 2000 Espen Sand <espen@kde.org>
+ 1999 Reginald Stadlbauer <reggie@kde.org>
+ 2000 Waldo Bastian (bastian@kde.org)
+ 2007 David Faure <faure@kde.org>
+ 2006 Hamish Rodda <rodda@kde.org>
+ 2000 Kurt Granroth <granroth@kde.org>
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2".
 
