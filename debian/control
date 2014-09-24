@@ -31,8 +31,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kxmlgui
 XS-Testsuite: autopkgtest
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kxmlgui
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kxmlgui
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kxmlgui.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kxmlgui.git
 
 Package: libkf5xmlgui-dev
 Section: libdevel
