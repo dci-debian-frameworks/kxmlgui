@@ -1,2 +1,3 @@
 etc/xdg/ui/ui_standards.rc
-usr/share/*
+usr/share/kf5/kxmlgui/
+usr/share/locale/*/*/kxmlgui5.mo
