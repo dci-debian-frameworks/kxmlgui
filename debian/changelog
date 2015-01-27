@@ -1,4 +1,4 @@
-kxmlgui (5.6.0-1~) UNRELEASED; urgency=medium
+kxmlgui (5.6.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Update build dependencies to build against experimental and to
@@ -9,7 +9,7 @@ kxmlgui (5.6.0-1~) UNRELEASED; urgency=medium
   * Add acc autopkgtests.
   * Update watch file.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 14:29:54 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 16:24:03 +0100
 
 kxmlgui (5.2.0-0ubuntu1) utopic; urgency=medium
 
