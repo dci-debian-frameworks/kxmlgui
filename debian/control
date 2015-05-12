@@ -16,9 +16,9 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5textwidgets-dev (>= 5.10.0~),
                libkf5widgetsaddons-dev (>= 5.10.0~),
                libkf5windowsystem-dev (>= 5.10.0~),
-               libqt5x11extras5-dev,
+               libqt5x11extras5-dev (>= 5.4),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0)
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kxmlgui
 XS-Testsuite: autopkgtest
@@ -37,7 +37,7 @@ Depends: libkf5attica-dev (>= 5.10.0~),
          libkf5textwidgets-dev (>= 5.10.0~),
          libkf5windowsystem-dev (>= 5.10.0~),
          libkf5xmlgui5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.2.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: User configurable main windows.
