@@ -1,14 +1,20 @@
 kxmlgui (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Fix merge.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:28:30 -0700
 
-kxmlgui (5.10.0-0ubuntu1) wily; urgency=medium
+kxmlgui (5.11.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.0).
   * Update symbols files from buildds logs (5.9.0-1).
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 21:44:10 +0200
+
+kxmlgui (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
