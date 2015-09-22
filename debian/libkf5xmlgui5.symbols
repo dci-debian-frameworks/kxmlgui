@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 arm64 armel armhf powerpc ppc64el
+# SymbolsHelper-Confirmed: 5.14.0+git20150922.0135+15.10 amd64 i386
 libKF5XmlGui.so.5 libkf5xmlgui5 #MINVER#
  _ZN10KBugReport10closeEventEP11QCloseEvent@Base 4.96.0
  _ZN10KBugReport11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -246,6 +246,7 @@ libKF5XmlGui.so.5 libkf5xmlgui5 #MINVER#
  _ZN16KShortcutsDialog11qt_metacastEPKc@Base 4.96.0
  _ZN16KShortcutsDialog13addCollectionEP17KActionCollectionRK7QString@Base 4.96.0
  _ZN16KShortcutsDialog16staticMetaObjectE@Base 4.96.0
+ _ZN16KShortcutsDialog19importConfigurationERK7QString@Base 5.14.0+git20150922.0135+15.10
  _ZN16KShortcutsDialog5savedEv@Base 4.96.0
  _ZN16KShortcutsDialog6acceptEv@Base 4.98.0
  _ZN16KShortcutsDialog9configureEP17KActionCollectionN16KShortcutsEditor15LetterShortcutsEP7QWidgetb@Base 4.96.0
@@ -466,7 +467,7 @@ libKF5XmlGui.so.5 libkf5xmlgui5 #MINVER#
  _ZNK11KMainWindow8dbusNameEv@Base 4.96.0
  _ZNK11KMainWindow8toolBarsEv@Base 4.96.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4.100.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 5.6.0+git20150122.0048+15.04
  _ZNK12KEditToolBar10metaObjectEv@Base 4.96.0
  _ZNK13KShapeGesture5toSvgERK7QString@Base 4.96.0
@@ -511,6 +512,7 @@ libKF5XmlGui.so.5 libkf5xmlgui5 #MINVER#
  _ZNK15KShortcutWidget8shortcutEv@Base 4.96.0
  _ZNK16KShortcutsDialog10metaObjectEv@Base 4.96.0
  _ZNK16KShortcutsDialog17actionCollectionsEv@Base 4.96.0
+ _ZNK16KShortcutsDialog19exportConfigurationERK7QString@Base 5.14.0+git20150922.0135+15.10
  _ZNK16KShortcutsDialog8sizeHintEv@Base 4.96.0
  _ZNK16KShortcutsEditor10isModifiedEv@Base 4.96.0
  _ZNK16KShortcutsEditor10metaObjectEv@Base 4.96.0
