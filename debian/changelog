@@ -1,10 +1,10 @@
-kxmlgui (5.15.0-1~) UNRELEASED; urgency=medium
+kxmlgui (5.15.0-1) unstable; urgency=medium
 
   * New upstream release (5.15.0).
   * Update symbols files from buildds logs (5.14.0-1).
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 05 Oct 2015 15:05:52 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:23 +0200
 
 kxmlgui (5.14.0-1) unstable; urgency=medium
 
