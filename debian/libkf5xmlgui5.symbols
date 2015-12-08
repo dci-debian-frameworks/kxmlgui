@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.16.0 alpha amd64 hurd-i386 i386 kfreebsd-i386 mips mipsel ppc64 s390x
+# SymbolsHelper-Confirmed: 5.17.0 amd64
 libKF5XmlGui.so.5 libkf5xmlgui5 #MINVER#
  _ZN10KBugReport10closeEventEP11QCloseEvent@Base 4.96.0
  _ZN10KBugReport11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -613,6 +613,8 @@ libKF5XmlGui.so.5 libkf5xmlgui5 #MINVER#
  _ZTV23KAboutApplicationDialog@Base 4.96.0
  _ZTV8KToolBar@Base 4.96.0
  _ZTV9KHelpMenu@Base 4.96.0
+ _ZZZN11KMainWindow19setAutoSaveSettingsERK7QStringbEd0_NKUlvE_clEvE15qstring_literal@Base 5.17.0
+ _ZZZN16KShortcutsDialog23KShortcutsDialogPrivate13toggleDetailsEvENKUlvE0_clEvE15qstring_literal@Base 5.17.0
  _ZZZN16KShortcutsDialog23KShortcutsDialogPrivate13toggleDetailsEvENKUlvE_clEvE15qstring_literal@Base 4.96.0
  (c++)"non-virtual thunk to KAboutApplicationDialog::~KAboutApplicationDialog()@Base" 4.96.0
  (c++)"non-virtual thunk to KBugReport::~KBugReport()@Base" 4.96.0
