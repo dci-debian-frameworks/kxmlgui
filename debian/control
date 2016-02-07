@@ -79,16 +79,3 @@ Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea
  of actions.
-
-Package: libkf5xmlgui5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Depends: libkf5xmlgui5 (= ${binary:Version}), ${misc:Depends}
-Recommends: libkf5xmlgui-bin (= ${binary:Version})
-Description: User configurable main windows.
- framework for designing the user interface
- of an application using XML, using the idea
- of actions.
- .
- Contains debug symbols for kxmlgui.
