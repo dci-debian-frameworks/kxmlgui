@@ -1,6 +1,6 @@
-kxmlgui (5.20.0-1~2.gbp9a8a45) UNRELEASED; urgency=medium
+kxmlgui (5.20.0-1~3.gbp92694f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9a8a455d9f1a41ccee2531448ca235fdd16c0cc1 **
+  ** SNAPSHOT build @92694f65c79eabbb475d9fa879c13cc4dcae1f76 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,9 @@ kxmlgui (5.20.0-1~2.gbp9a8a45) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update acc test script
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:57:15 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:57:27 +0200
 
 kxmlgui (5.19.0-1) experimental; urgency=medium
 
