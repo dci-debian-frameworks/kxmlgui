@@ -1,6 +1,6 @@
-kxmlgui (5.20.0-1~3.gbp92694f) UNRELEASED; urgency=medium
+kxmlgui (5.21.0-1~1.gbpe672e0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @92694f65c79eabbb475d9fa879c13cc4dcae1f76 **
+  ** SNAPSHOT build @e672e09a86d75fdb0d8ec6a3f9e7c42c66c42dc0 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -15,8 +15,15 @@ kxmlgui (5.20.0-1~3.gbp92694f) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:57:27 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 13:43:12 +0200
 
 kxmlgui (5.19.0-1) experimental; urgency=medium
 
