@@ -1,6 +1,6 @@
-kxmlgui (5.21.0-1~1.gbpe672e0) UNRELEASED; urgency=medium
+kxmlgui (5.22.0-1~1.gbp88e3e1) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e672e09a86d75fdb0d8ec6a3f9e7c42c66c42dc0 **
+  ** SNAPSHOT build @88e3e1a93390b7838fb88d6fc5000a39d0a81d27 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -11,6 +11,8 @@ kxmlgui (5.21.0-1~1.gbpe672e0) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.19.0-1).
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Update acc test script
@@ -23,7 +25,7 @@ kxmlgui (5.21.0-1~1.gbpe672e0) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 13:43:12 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 12:57:37 +0200
 
 kxmlgui (5.19.0-1) experimental; urgency=medium
 
