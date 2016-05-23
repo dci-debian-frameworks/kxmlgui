@@ -1,31 +1,19 @@
-kxmlgui (5.22.0-1~1.gbp88e3e1) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @88e3e1a93390b7838fb88d6fc5000a39d0a81d27 **
+kxmlgui (5.22.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+  * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.19.0-1).
   * Bump Standards-Version to 3.9.8
-  * Update build-deps and deps with the info from cmake
-
-  [ Maximiliano Curia ]
-  * Update acc test script
-  * UNRELEASED
-  * uscan no longer supports more than one main upstream tarball being listed
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
   * Update symbols files
 
-  [ Maximiliano Curia ]
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 12:57:37 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 23 May 2016 15:31:23 +0200
 
 kxmlgui (5.19.0-1) experimental; urgency=medium
 
