@@ -7,6 +7,7 @@
 
 <headers>
     /usr/include/KF5/KXmlGui/
+    /usr/include/KF5/kxmlgui_version.h
 </headers>
 
 <libs>
@@ -15,6 +16,7 @@
 
 <gcc_options>
     -fPIC
+    -std=c++11
 </gcc_options>
 
 </descriptor>
