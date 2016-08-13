@@ -1,10 +1,12 @@
-kxmlgui (5.24.0-1~1.gbp377520) UNRELEASED; urgency=medium
+kxmlgui (5.25.0-1~1.gbpe8842d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @37752095b020a42a3febd6b26fd22a8c1e98973f **
+  ** SNAPSHOT build @e8842d57b8059173310ac302a38e50ee6196ee2c **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 12:57:27 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 12:57:14 +0200
 
 kxmlgui (5.23.0-1) unstable; urgency=medium
 
