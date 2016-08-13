@@ -5,21 +5,21 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.24.0~),
-               libkf5attica-dev (>= 5.24.0~),
-               libkf5config-dev (>= 5.24.0~),
-               libkf5configwidgets-dev (>= 5.24.0~),
-               libkf5coreaddons-dev (>= 5.24.0~),
-               libkf5globalaccel-dev (>= 5.24.0~),
-               libkf5i18n-dev (>= 5.24.0~),
-               libkf5iconthemes-dev (>= 5.24.0~),
-               libkf5itemviews-dev (>= 5.24.0~),
-               libkf5textwidgets-dev (>= 5.24.0~),
-               libkf5widgetsaddons-dev (>= 5.24.0~),
-               libkf5windowsystem-dev (>= 5.24.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               libkf5attica-dev (>= 5.25.0~),
+               libkf5config-dev (>= 5.25.0~),
+               libkf5configwidgets-dev (>= 5.25.0~),
+               libkf5coreaddons-dev (>= 5.25.0~),
+               libkf5globalaccel-dev (>= 5.25.0~),
+               libkf5i18n-dev (>= 5.25.0~),
+               libkf5iconthemes-dev (>= 5.25.0~),
+               libkf5itemviews-dev (>= 5.25.0~),
+               libkf5textwidgets-dev (>= 5.25.0~),
+               libkf5widgetsaddons-dev (>= 5.25.0~),
+               libkf5windowsystem-dev (>= 5.25.0~),
                libqt5x11extras5-dev (>= 5.4),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.5.0~)
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kxmlgui
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kxmlgui.git
@@ -28,16 +28,16 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kxmlgui.git
 Package: libkf5xmlgui-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5attica-dev (>= 5.24.0~),
-         libkf5config-dev (>= 5.24.0~),
-         libkf5configwidgets-dev (>= 5.24.0~),
-         libkf5globalaccel-dev (>= 5.24.0~),
-         libkf5iconthemes-dev (>= 5.24.0~),
-         libkf5itemviews-dev (>= 5.24.0~),
-         libkf5textwidgets-dev (>= 5.24.0~),
-         libkf5windowsystem-dev (>= 5.24.0~),
+Depends: libkf5attica-dev (>= 5.25.0~),
+         libkf5config-dev (>= 5.25.0~),
+         libkf5configwidgets-dev (>= 5.25.0~),
+         libkf5globalaccel-dev (>= 5.25.0~),
+         libkf5iconthemes-dev (>= 5.25.0~),
+         libkf5itemviews-dev (>= 5.25.0~),
+         libkf5textwidgets-dev (>= 5.25.0~),
+         libkf5windowsystem-dev (>= 5.25.0~),
          libkf5xmlgui5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.4.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: User configurable main windows.
