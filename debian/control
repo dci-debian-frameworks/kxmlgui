@@ -46,6 +46,12 @@ Description: User configurable main windows.
  of actions.
  .
  Contains development files for kxmlgui.
+Breaks: kio-dev (<< 5.25),
+        libkf5bookmarks-dev (<< 5.25),
+        libkf5kcmutils-dev (<< 5.25),
+        libkf5kio-dev (<< 5.25),
+        libkf5newstuff-dev (<< 5.25),
+        libkf5parts-dev (<< 5.25)
 
 Package: libkf5xmlgui-bin
 Architecture: any
@@ -79,3 +85,19 @@ Description: User configurable main windows.
  framework for designing the user interface
  of an application using XML, using the idea
  of actions.
+Breaks: frameworkintegration (<< 5.25),
+        kdesignerplugin (<< 5.25),
+        libkf5bookmarks5 (<< 5.25),
+        libkf5kcmutils5 (<< 5.25),
+        libkf5kdelibs4support5 (<< 5.25),
+        libkf5khtml-bin (<< 5.25),
+        libkf5khtml5 (<< 5.25),
+        libkf5kiofilewidgets5 (<< 5.25),
+        libkf5krossui5 (<< 5.25),
+        libkf5mediaplayer5 (<< 5.25),
+        libkf5newstuff5 (<< 5.25),
+        libkf5parts-plugins (<< 5.25),
+        libkf5parts5 (<< 5.25),
+        libkf5plasma5 (<< 5.25),
+        libkf5texteditor5 (<< 5.25),
+        plasma-framework (<< 5.25)
