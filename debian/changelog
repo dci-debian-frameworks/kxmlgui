@@ -1,19 +1,13 @@
-kxmlgui (5.25.0-1~2.gbpe69acd) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @e69acd61e2738a15f5dcc9e356e4fcc7eadc6ff2 **
+kxmlgui (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @e8842d57b8059173310ac302a38e50ee6196ee2c **
-
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-  * Update symbols files.
   * Update symbols files.
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 21:57:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:47:32 +0200
 
 kxmlgui (5.23.0-1) unstable; urgency=medium
 
