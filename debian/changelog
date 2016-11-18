@@ -1,10 +1,13 @@
-kxmlgui (5.28.0-1~1.gbp5bf09e) UNRELEASED; urgency=medium
+kxmlgui (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @5bf09e3b6d30b028fdd1f86793335601043c929c **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 16 Nov 2016 06:57:43 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:05:44 +0100
 
 kxmlgui (5.27.0-1) unstable; urgency=medium
 
