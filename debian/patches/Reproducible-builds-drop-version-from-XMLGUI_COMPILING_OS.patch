@@ -1,0 +1,23 @@
+From: Maximiliano Curia <maxy@gnuservers.com.ar>
+Date: Fri, 7 Apr 2017 16:41:55 +0200
+Subject: Reproducible builds: drop version from XMLGUI_COMPILING_OS
+
+This is a fix for the Debian bug: https://bugs.debian.org/835053. The
+reproducible build team found kxmlgui not reproducible by the use of
+the CMAKE_SYSTEM variable. Changing it to CMAKE_SYSTEM_NAME still gives
+us information about the SYSTEM, disregarding the kernel version.
+---
+ src/config-xmlgui.h.cmake | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/config-xmlgui.h.cmake b/src/config-xmlgui.h.cmake
+index 9d7f3dc..a063b14 100644
+--- a/src/config-xmlgui.h.cmake
++++ b/src/config-xmlgui.h.cmake
+@@ -1,5 +1,5 @@
+ #define XMLGUI_DISTRIBUTION_TEXT "${XMLGUI_DISTRIBUTION_TEXT}"
+-#define XMLGUI_COMPILING_OS "${CMAKE_SYSTEM}"
++#define XMLGUI_COMPILING_OS "${CMAKE_SYSTEM_NAME}"
+ #define XMLGUI_COMPILER_VERSION "${XMLGUI_COMPILER_VERSION}"
+ 
+ #define CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}"
