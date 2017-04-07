@@ -1,3 +1,11 @@
+kxmlgui (5.28.0-2~) UNRELEASED; urgency=medium
+
+  * Add new patch:
+    Reproducible-builds-drop-version-from-XMLGUI_COMPILING_OS.patch.
+    Thanks to Chris Lamb for reporting (Closes: 835053)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 07 Apr 2017 16:48:23 +0200
+
 kxmlgui (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
