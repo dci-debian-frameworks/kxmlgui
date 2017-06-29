@@ -1,11 +1,13 @@
 kxmlgui (5.35.0-1~) UNRELEASED; urgency=medium
 
-  * Add new patch:
-    Reproducible-builds-drop-version-from-XMLGUI_COMPILING_OS.patch.
-    Thanks to Chris Lamb for reporting (Closes: 835053)
   * New upstream release (5.35.0).
+    + Applies reproducible build version patch (Closes: 835053)
+      Thanks to Chris Lamb for reporting
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.35)
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:52:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Jun 2017 23:04:39 +0200
 
 kxmlgui (5.28.0-1) unstable; urgency=medium
 
