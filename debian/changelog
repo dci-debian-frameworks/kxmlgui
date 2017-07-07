@@ -1,13 +1,19 @@
-kxmlgui (5.35.0-1~) UNRELEASED; urgency=medium
+kxmlgui (5.35.0-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.35.0).
     + Applies reproducible build version patch (Closes: 835053)
       Thanks to Chris Lamb for reporting
   * Bump Standards-Version to 4.0.0.
   * Update build-deps and deps with the info from cmake
   * Bump group breaks (5.35)
+  * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Jun 2017 23:04:39 +0200
+  [ Raymond Wooninck ]
+  * Add signing key
+  * also include signing-key
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 12:27:12 +0200
 
 kxmlgui (5.28.0-1) unstable; urgency=medium
 
