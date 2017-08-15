@@ -89,6 +89,7 @@ Description: User configurable main windows (documentation)
  of actions.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5xmlgui5
 Architecture: any
